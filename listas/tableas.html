@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=:, initial-scale=1.0">
+    <title>tabelas</title>
+</head>
+<body>
+    <h1>trabalhado com tabelas</h1>
+    <h2>tabela de alunos</h2>
+    <!-- tabelas em html -->
+     <table border="1"> <!-- fazer borda -->
+      
+        <!-- cabeçalho -->
+      <thead> 
+        <tr>   <!--linha da tabela  -->
+         <th>nome</th><!-- coluna -->
+         <th>idade</th>
+         <th>cpf</th>
+         <th>e-mail</th>    
+        </tr>
+      </thead>
+      
+      <!-- corpo -->
+      <tbody> 
+        <tr><!-- linha da tabela -->
+            <td>matheus</td><!-- item da tabela -->
+            <td>27</td>
+            <td>181.181.181.12</td>
+            <td>erick@gmail.com</td>
+        </tr>
+
+      <!--   tr>td*3  fazer  uma sequncia-->
+          <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+     
+      </tbody>
+      </table>
+
+      <!-- mesclando colunas -->
+      <h2>tabelas filmes</h2>
+      <table border="1">
+        <thead>
+            <tr>
+                <th colspan="4">lista de filmes</th>
+            </tr>
+            <tr>
+                <th >genero</th>
+                <th>ano</th>
+                <th>titulo</th>
+                <th>nota</th>
+            </tr>
+        </thead>
+        
+        <tbody>
+            <tr>
+                <td rowspan="2">açao</td>
+                 <td>2019</td>
+                <td>vingadores ultimato</td>
+                <td>9.8</td>
+             </tr>
+          
+             <tr>
+              
+              <td>2026</td>
+              <td>jonh wick</td>
+              <td>10</td>
+             </tr>
+
+            <tr>
+                <td>comedia</td>
+                <td>2005</td>
+                <td>american pie</td>
+                <td>10</td>
+            </tr>
+        </tbody>
+      </table>
+
+
+
+</body>
+</html>
